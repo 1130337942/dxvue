@@ -1,0 +1,40 @@
+body,ul{
+    margin: 0px;
+    padding: 0px;
+}
+#app{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+li{
+    list-style: none;
+}
+.nav-box{
+    background: #c3c3c3;
+}
+.nav{
+    overflow: hidden;
+}
+.nav-box li{
+    float: left;
+    padding: 30px;
+    cursor: pointer;
+    line-height: 25px;
+}
+/* 默认的类名 */
+.router-link-active{
+    background: #fffffc
+}
+/* 在路由配置后的类名(全局) 在index.js */
+.is_active{
+    background: #ccdddd
+}
+/* 单独在标签设置 在App.vue */
+.only_active{
+    background: pink;
+}

@@ -1,0 +1,7 @@
+/* 
+把css 文件引入进来，相当于css的入口文件
+使用：要在main.js 引入这个文件
+*/
+@import './reset.css';
+@import './font.css';
+@import './home.css';
